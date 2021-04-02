@@ -1,16 +1,24 @@
 ```{block type='col- grid-item', echo=TRUE}
 ## Contact information {.box}
 
-<div class = "info-box">
+<div class = "info-box-left">
 | right | right |
 |:------|-----:|
-| <span style="color: #454545"><i class="fas fa-map-marker-alt"></i></span> [BRT, University of Oregon](https://www.brtprojects.org)|
-| <span style="color: #454545"><i class="fas fa-envelope"></i></span> daniela\@uoregon.edu |
-| <span style="color: #454545"><i class="fas fa-globe"></i></span> [datalorax](https://www.datalorax.com) |
-| <span style="color: #454545"><i class="fab fa-github"></i></span> [datalorax](https://github.com/datalorax/) |
-| <span style="color: #454545"><i class="fab fa-twitter"></i></span> [datalorax_](https://twitter.com/datalorax_/) |
-| <span style="color: #454545"><i class="fab fa-stack-overflow"></i></span> [Daniel Anderson](https://stackoverflow.com/users/4959854/daniel-anderson) |
-| <span style="color: #454545"><i class="fab fa-orcid"></i></span> [Daniel Anderson](https://orcid.org/0000-0003-4699-4680)
+| <span style="color: #454545"><i class="fas fa-envelope"></i></span> [sbachman@usc.edu](mailto:sbachman@usc.edu) 
+| <span style="color: #454545"><i class="fab fa-orcid"></i></span> [0000-0002-4460-4661](https://orcid.org/0000-0002-4460-4661)
+
+</div>
+```
+
+```{block type='col- grid-item', echo=TRUE}
+## Contact information {.box}
+
+<div class = "info-box-right">
+| right | right |
+|:------|-----:|
+| <span style="color: #454545"><i class="fas fa-globe"></i></span> [shelbybachman.github.io](https://shelbybachman.github.io)
+| <span style="color: #454545"><i class="fab fa-github"></i></span> [shelbybachman](https://github.com/shelbybachman/) 
+
 
 </div>
 ```

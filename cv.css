@@ -56,7 +56,7 @@ h2.date {
 }
 
 .fafooter:hover {
-  color: #FF95FD;
+  color: #99CCB2;
 }
 
 .title {
@@ -128,10 +128,16 @@ br.flow-top {
   margin-top: 1px; 
 }
 
-.info-box a {
+.info-box-left a {
   color: black;
   text-decoration: none;
 }
+
+.info-box-right a {
+  color: black;
+  text-decoration: none;
+}
+
 
 p, li {
   font-size: var(--root-font-size);
@@ -167,7 +173,7 @@ p, li {
 .sub {
   font-family: 'Roboto Slab', serif;
   color: #454545;
-  background-color: #DEF2FF;
+  background-color: #bbddcb;
   padding-top: 10px;
   margin-top: 15px;
   padding-bottom: 10px;
@@ -183,7 +189,7 @@ p, li {
 }
 
 .inote {
-  text-align: center;
+  text-align: left;
   margin-top: -15px;
   font-weight: 100;
   font-style: italic;
@@ -213,7 +219,7 @@ h1 {
 
 /* section headers */
 h2 {
-  color: #649FD3;
+  color: #4d9971;
   border-bottom: 2px solid darkgray;
   margin-top: 0.6em;
   margin-bottom: 0.3em;
@@ -232,19 +238,33 @@ h2.box {
   visibility: hidden;
   margin-bottom: 0;
 }
-.info-box {
-  border-left: 2px solid darkgray;
+.info-box-left {
+#  border-left: 2px solid darkgray;
   padding: 10px;
   padding-left: 20px;
   margin: 10px;
   margin-left: -10px;
 }
-.info-box thead {
+.info-box-left thead {
   display: none;
 }
-.info-box td:first-child{
+.info-box-left td:first-child{
   width: 100%;
-  /*text-align: right; */
+  text-align: left;
+}
+.info-box-right {
+#  border-left: 2px solid darkgray;
+  padding: 10px;
+  padding-left: 20px;
+  margin: 10px;
+  margin-left: -10px;
+}
+.info-box-right thead {
+  display: none;
+}
+.info-box-right td:first-child{
+  width: 100%;
+  text-align: left;
 }
 
 /* if you use links to footnotes*/
@@ -255,11 +275,11 @@ h2.box {
 
 a {
   text-decoration: none;
-  color: #649FD3;
+  color: #99CCB2;
 }
 
 a:hover {
-  color: #FF95FD;
+  color: #99CCB2;
 }
 
 .falink {
@@ -269,7 +289,7 @@ a:hover {
 }
 
 .falink:hover {
-  color: #FF95FD;
+  color: #99CCB2;
 }
 
 .falink2 {
@@ -279,7 +299,7 @@ a:hover {
 }
 
 .falink2:hover {
-  color: #FF95FD;
+  color: #99CCB2;
 }
 
 .falink3 {
@@ -289,7 +309,7 @@ a:hover {
 }
 
 .falink3:hover {
-  color: #FF95FD;
+  color: #99CCB2;
 }
 
 .grid-container {
@@ -299,6 +319,19 @@ a:hover {
   margin-bottom: -20px;
   padding-bottom: -20px;
 }
+
+.sub-new {
+  font-family: 'Roboto Slab', serif;
+  color: #454545;
+  background-color: #bbddcb;
+  padding-top: 10px;
+  margin-top: 15px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  font-weight: normal;
+  font-size: 1em;
+}
+
 
 /* remove header in select table */
 .nohead thead{
@@ -324,6 +357,15 @@ a:hover {
   text-align:left;
 }
 
+.award td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.award td:nth-child(1) {
+  width: 4%;
+  text-align:left;
+}
+
 .submitted td {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -342,7 +384,7 @@ a:hover {
   width: 18%;
 }
 
-.history td:first-child {
+.research td:first-child {
   width: 18%;
 }
 
